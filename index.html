@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">    
+    <meta name="" content="Los Angeles mountains! Your number one destination to find your next epic hike. Explore! Live!">
+    <meta name="keywords" content="los angeles, mountains, explore, travel, la, hike, trail">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Los Angeles Mountains</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+  <header class="hero">
+    <aside>
+        <img src="/images/logo.png" alt="descriptive alt text that is also awesome for SEO">
+        <nav>
+            <ul>
+                <a href="#section-one"><li>01. History</li></a>
+                <a href="#section-two"><li>02. Team</li></a>
+            </ul>
+        </nav>
+    </aside>
+    <h1>Los Angeles Mountains</h1>
+  </header>
+  <main>
+    <aside class="sticky-nav"> 
+        <nav>        
+            <img src="/images/stickylogo.jpg" alt="descriptive alt text that is also awesome for SEO">
+            <ul>
+                <a href="#section-one"><li>01. History</li></a>
+                <a href="#section-two"><li>02. Team</li></a>
+            </ul>
+        </nav>
+    </aside>
+
+        <nav class="mobile-nav">
+            <div id="menuToggle">
+      
+              <input type="checkbox" />
+              
+              <span></span>
+              <span></span>
+              <span></span>
+              
+              <ul id="menu">
+                <a href="#section-one"><li>History</li></a>
+                <a href="#section-two"><li>Team</li></a>
+              </ul>
+            </div>
+          </nav>
+
+    <section id="section-one" class="section-one">
+        <aside>
+            <span>01.</span>
+            <h2>History</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptatum natus quos delectus et! Temporibus sequi nisi quibusdam, consequatur in excepturi sit ut repudiandae sint, modi vero voluptatum. Veritatis, quasi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, eos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, similique?</p>
+        </aside>
+
+        <div class="gallery-wrapper">
+            <div class="gallery js-flickity"
+            data-flickity-options='{ "wrapAround": true, "prevNextButtons": false, "freeScroll": true,
+            "contain": true }'>
+            <div class="gallery-cell"><img src="/images/thumb01.jpg" alt="descriptive alt text that is also awesome for SEO"></div>
+            <div class="gallery-cell"><img src="/images/thumb02.jpg" alt="descriptive alt text that is also awesome for SEO"></div>
+            <div class="gallery-cell"><img src="/images/thumb01.jpg" alt="descriptive alt text that is also awesome for SEO"></div>
+            <div class="gallery-cell"><img src="/images/thumb02.jpg" alt="descriptive alt text that is also awesome for SEO"></div>
+            <div class="gallery-cell"><img src="/images/thumb01.jpg" alt="descriptive alt text that is also awesome for SEO"></div>
+            <div class="gallery-cell"><img src="/images/thumb02.jpg" alt="descriptive alt text that is also awesome for SEO"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-two" class="section-two">
+        <aside>
+            <span>02.</span>
+            <h2>Climb</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt debitis illo at nulla animi fugit consequatur quidem. Sunt, minus facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, non facere suscipit sunt facilis unde.</p>
+        </aside>
+
+    <aside class="tab-container">
+        <ul class="tabs">
+            <li data-tab-target="#mountain-one" class="active tab">Mountain 1</li>
+            <li data-tab-target="#mountain-two" class="tab">Mountain 2</li>
+        </ul>
+    </aside>
+          
+        <div class="tab-content">
+            <div id="mountain-one" data-tab-content class="active">
+                <div class="dates-container">
+                    <section>
+                        <h5>Schedule</h5>
+                        <table>
+                            <tr>
+                            <td>
+                                <span>25 Nov 2016</span>
+                                <span>28 Nov 2016</span>
+                                &nbsp;
+                                <span>18 Dec 2016</span>
+                                &nbsp;
+                                <span>7 Jan 2017</span>
+                            </td>
+                            <td >
+                                <span>Vestibulum viverra</span>
+                                <span>Vestibulum viverra</span>
+                                &nbsp;
+                                <span>Vestibulum viverra</span>
+                                &nbsp;
+                                <span>Vestibulum viverra</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+                </div>
+            </div>
+            <div id="mountain-two" data-tab-content>
+                <div class="dates-container">
+                    <section>
+                        <h5>Schedule</h5>
+                        <table>
+                            <tr>
+                            <td>
+                                <span>17 Nov 2016</span>
+                                &nbsp;
+                                <span>13 Dec 2016</span>
+                                <span>28 Dec 2016</span>
+                                &nbsp;
+                                <span>9 Feb 2017</span>
+                            </td>
+                            <td >
+                                <span>Vestibulum viverra</span>
+                                &nbsp;
+                                <span>Vestibulum viverra</span>
+                                <span>Vestibulum viverra</span>
+                                &nbsp;
+                                <span>Vestibulum viverra</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <h6>Copyright 2016. All Rights Reserved</h6>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </footer>
+</body>
+</html>
